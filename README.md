@@ -9,7 +9,7 @@
 
 ## 文件夹说明
 
-#### **指数计算 indices_calculation**
+### **指数计算 indices_calculation**
 
 | 时间段缩写 |                         |
 | ---------- | ----------------------- |
@@ -30,7 +30,7 @@
 | END-CDDCWD             | CDD、CWD                                                     |
 | *Percentile            | 相对阈值指数中各地的相对阈值                                 |
 
-#### 平均气候态作图 Fig_mean
+### 平均气候态作图 Fig_mean
 
 "map"用于绘制气候变量的全球平均分布图。
 
@@ -38,16 +38,16 @@
 
 "PDFs"用于绘制概率密度函数分布图。
 
-#### 极端天气指数作图 Fig_extreme
+### 极端天气指数作图 Fig_extreme
 
 "map_2rows"与"map_4rows"均用于绘制极端天气指数的全球分布图，但前者在单一图像中能刻画两个极端天气指数，而后者在单一图像中能刻画四个极端天气指数。
 
-#### 分区域极端天气指数作图 Fig_regional
+### 分区域极端天气指数作图 Fig_regional
 
 "regional_selected_data.xlsx"为按照IPCC SREX陆地部分地域分区，挑选出人口数量大于3亿的地区，分别计算其极端天气指数（TN10p、TX90p、R95pTOT、R99pTOT）平均值的结果。
 
 "Dot_plot"用于绘制表格中四个极端天气指数在各筛选地区平均值的点图。
 
-#### 自定义函数 Functions
+### 自定义函数 Functions
 
 包含以上脚本所调用的所有自定义函数。
